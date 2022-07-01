@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FCC Drum Machine</title>
+    <link rel="shortcut icon" href="#" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+  <body class="bg-light">
+    <main id="drum-machine" class="container vh-100">
+      <header class="text-center py-5">
+        <h1>FCC Drums</h1>
+      </header>
+      <section id="display" class="d-flex gap-4">
+        <div class="w-50 d-grid gap-2">
+          <button
+            id="drum--1"
+            class="btn btn-outline-primary drum-pad px-3 py-3"
+            type="button"
+          >
+            Q
+            <audio class="clip" id="Q" src="./clips/boom.wav"></audio>
+          </button>
+
+          <button
+            id="drum--2"
+            class="btn btn-outline-primary drum-pad px-3 py-3"
+            type="button"
+          >
+            W
+            <audio class="clip" id="W" src="./clips/clap.wav"></audio>
+          </button>
+
+          <button
+            id="drum--3"
+            class="btn btn-outline-primary drum-pad px-3 py-3"
+            type="button"
+          >
+            E
+            <audio class="clip" id="E" src="./clips/hihat.wav"></audio>
+          </button>
+
+          <button
+            id="drum--4"
+            class="btn btn-outline-primary drum-pad px-3 py-3"
+            type="button"
+          >
+            A
+            <audio class="clip" id="A" src="./clips/kick.wav"></audio>
+          </button>
+
+          <button
+            id="drum--5"
+            class="btn btn-outline-primary drum-pad px-3 py-3"
+            type="button"
+          >
+            S
+            <audio class="clip" id="S" src="./clips/openhat.wav"></audio>
+          </button>
+
+          <button
+            id="drum--6"
+            class="btn btn-outline-primary drum-pad px-3 py-3"
+            type="button"
+          >
+            D
+            <audio class="clip" id="D" src="./clips/ride.wav"></audio>
+          </button>
+
+          <button
+            id="drum--7"
+            class="btn btn-outline-primary drum-pad px-3 py-3"
+            type="button"
+          >
+            Z
+            <audio class="clip" id="Z" src="./clips/snare.wav"></audio>
+          </button>
+
+          <button
+            id="drum--8"
+            class="btn btn-outline-primary drum-pad px-3 py-3"
+            type="button"
+          >
+            X
+            <audio class="clip" id="X" src="./clips/tink.wav"></audio>
+          </button>
+
+          <button
+            id="drum--9"
+            class="btn btn-outline-primary drum-pad px-3 py-3"
+            type="button"
+          >
+            C
+            <audio class="clip" id="C" src="./clips/tom.wav"></audio>
+          </button>
+        </div>
+        <section
+          class="w-50 border border-primary p-3 rounded d-flex justify-content-center align-items-center"
+        >
+          <h2 class="sound-desc">test</h2>
+        </section>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
